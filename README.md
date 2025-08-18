@@ -1,12 +1,32 @@
-# React + Vite
+## To-Do List App  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🔗 **Live Demo:** [to-do-list-mu-kohl.vercel.app](https://to-do-list-mu-kohl.vercel.app/)  
 
-Currently, two official plugins are available:
+This project is built as a **Single Page Application (SPA)** with **React** and styled using **TailwindCSS**, designed to be fully responsive across different devices.  
+Key features include adding, editing, deleting, and marking tasks as complete or incomplete — making it a practical and interactive to-do manager.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-  Tasks are stored in `localStorage` for persistence (works across page reloads).  
+-  TailwindCSS powers the design, offering a clean, lightweight interface.  
+-  Responsive layout adapts beautifully to both mobile and desktop screens.  
+-  Focus on user experience: easy to use, fast to interact with.  
 
-## Expanding the ESLint configuration
+This repo showcases a classic practice project — it’s not just about functionality, but also about building a reliable, responsive frontend foundation with React and Tailwind.  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Getting Started  
+
+Follow these steps to run the project locally:  
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/Mohammadtaha1122/to-do-list.git
+
+# 2. Navigate to the project folder
+cd to-do-list
+
+# 3. Install dependencies
+npm install
+
+# 4. Start the development server
+npm run dev
